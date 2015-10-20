@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;f&apos; in &apos;de.bht.fpa.mail.s822248.fsnavigation.NavigationView.update(...)&apos; to &apos;path&apos;&#x0D;&#x0A;- Original project: &apos;de.bht.fpa.mail.s822248.fsnavigation&apos;&#x0D;&#x0A;- Original element: &apos;de.bht.fpa.mail.s822248.fsnavigation.NavigationView.update(Observable, Object).f&apos;&#x0D;&#x0A;- Renamed element: &apos;f&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;f&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;de.bht.fpa.mail.s822248.fsnavigation{NavigationView.java[NavigationView~update~QObservable;~QObject;@f!929!953!936!936!QString;!0!false" name="path" references="true" stamp="1445363249756" version="1.0"/>
+</session>

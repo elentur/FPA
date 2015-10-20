@@ -1,0 +1,7 @@
+package de.bht.fpa.mail.s822248.fsnavigation.handlers;
+
+import java.util.Observable;
+
+public class FileObservable extends Observable {
+
+}
