@@ -1,35 +1,33 @@
 package de.bht.fpa.mail.s822248.fsnavigation.handlers;
 
-import java.util.List;
 import java.util.Observable;
-import java.util.Observer;
 
-public class FileObservable extends Observable {
-	private String path;
-	private  static FileObservable fileObservable=null;
+/**
+ * A Singleton of a File Observable
+ * 
+ * @author marcu_000
+ *
+ */
+public final class FileObservable extends Observable {
+  private String path;
+  private static final FileObservable FILE_OBSERVABLE = new FileObservable();
 
-	
-	private FileObservable(){
-		
-	}
-	
-	public static  FileObservable getInstance(){
-		if(fileObservable == null) fileObservable= new FileObservable();
-		return fileObservable;
-	}
-	
+  private FileObservable() {
 
+  }
 
-	public void setPath(String path){
-		setChanged();
-		notifyObservers(path);
-		this.path = path;
-	}
-	
+  public static FileObservable getInstance() {
+    return FILE_OBSERVABLE;
+  }
 
+  public void setPath(String path) {
+    setChanged();
+    notifyObservers(path);
+    this.path = path;
+  }
 
-	public String getPath(){
-		return path;
-	}
+  public String getPath() {
+    return path;
+  }
 
 }

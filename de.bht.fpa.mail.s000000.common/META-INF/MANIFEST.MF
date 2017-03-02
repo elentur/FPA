@@ -19,10 +19,13 @@ Export-Package: com.sun.mail.smtp,
  de.bht.fpa.mail.s000000.common.mail.model,
  de.bht.fpa.mail.s000000.common.mail.model.builder,
  de.bht.fpa.mail.s000000.common.mail.testdata,
+ de.bht.fpa.mail.s000000.common.persistence,
  de.bht.fpa.mail.s000000.common.rcp.selection,
  de.bht.fpa.mail.s000000.common.table,
  javax.mail,
- javax.mail.internet
+ javax.mail.internet,
+ javax.persistence,
+ org.eclipse.persistence.annotations
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui,
  de.ralfebert.rcputils;bundle-version="1.0.0"
